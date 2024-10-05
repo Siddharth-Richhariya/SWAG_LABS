@@ -1,13 +1,17 @@
 package PageObjectModel;
 
-import org.openqa.selenium.By;
-
 public class Locators {
     public static class Login_Page{
-        public static By USERNAME = By.xpath("//input[@id='user-name']");
-        public static By PASSWORD = By.xpath("//input[@id='password']");
-        public static By LOGINBUTTON = By.xpath("//input[@id='login-button']");
-        public static By ERROR_MESSAGE = By.xpath("//h3[@data-test='error']");
+        public static final String USERNAME = "//input[@id='user-name']";
+        public static final String PASSWORD = "//input[@id='password']";
+        public static final String LOGINBUTTON = "//input[@id='login-button']";
+        public static final String ERROR_MESSAGE = "//h3[@data-test='error']";
     }
+
+    public static class Home_Page{
+        public static final String DROPDOWN = "//select[@class='product_sort_container']";
+    }
+
+
 
 }
