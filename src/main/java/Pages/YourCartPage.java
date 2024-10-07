@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class YourCartPage {
-    private WaitHelper wait;
+    private final WaitHelper wait;
     public YourCartPage(WebDriver driver) {
         wait = new WaitHelper(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Siddh/IdeaProjects/SWAG_LABS">
+        <classes>
+            <class name="TestClass.LoginTest">
+                <methods>
+                    <include name="testvalidLogin"/>
+                    <include name="testHomePage"/>
+                    <include name="verifyCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -10,12 +10,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class WaitHelper {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    private final WebDriverWait wait;
 
     // Constructor to initialize WebDriver and WebDriverWait
     public WaitHelper(WebDriver driver, Duration timeoutInSeconds) {
-        this.driver = driver;
         this.wait = new WebDriverWait(driver, timeoutInSeconds);
     }
 

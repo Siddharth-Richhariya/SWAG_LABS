@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39dd205a-eceb-4e18-a39c-b860e88ec022" name="Changes" comment="New Update">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/YourCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/WaitHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" afterDir="false" />
+    <list default="true" id="39dd205a-eceb-4e18-a39c-b860e88ec022" name="Changes" comment="Smoke Testing">
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/YourCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/WaitHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/WaitHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728157175338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Smoke Testing">
+      <option name="closed" value="true" />
+      <created>1728336528568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728336528568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Update" />
+    <MESSAGE value="Smoke Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smoke Testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

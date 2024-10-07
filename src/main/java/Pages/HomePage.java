@@ -14,13 +14,11 @@ import java.time.Duration;
 import java.util.List;
 
 public class HomePage {
-    private WaitHelper wait;
+    private final WaitHelper wait;
     public HomePage(WebDriver driver) {
         wait = new WaitHelper(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
     }
-
-
 
     @FindBy(xpath = Locators.Home_Page.DROPDOWN)
     private WebElement dropDown;
@@ -50,7 +48,6 @@ public class HomePage {
 
     public void addProductToCart(int index){
         if (index >=0 && index < addToCart.size()){
-            wait.waitForElementToBeVisible(By.xpath(Locators.Home_Page.ADDTOCART)) ;
             wait.waitForElementToBeClickable(By.xpath(Locators.Home_Page.ADDTOCART)).click();
             System.out.println("Added product in Cart: "+ products_name.get(index).getText());
         }
