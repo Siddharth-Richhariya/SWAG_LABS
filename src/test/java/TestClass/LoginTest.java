@@ -3,20 +3,21 @@ package TestClass;
 import PageObjectModel.BaseClass;
 import Pages.HomePage;
 import Pages.LoginPage;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import Pages.YourCartPage;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class LoginTest {
 
     String Url = "https://www.saucedemo.com/v1";
-    @BeforeMethod
+    @BeforeClass
     public void setUp(){
         BaseClass.intiDriver("Chrome");
         BaseClass.openURL(Url);
     }
 
-    @Test
+    @Test(priority = 0)
     public void testvalidLogin(){
         LoginPage loginPage = new LoginPage(BaseClass.getDriver());
         loginPage.enterUserName("standard_user");
@@ -24,13 +25,31 @@ public class LoginTest {
         loginPage.clickLoginButton();
     }
 
-    @Test (enabled = false)
-    public void testHomePage(){
+    @Test (priority = 1)
+    public void testHomePage() throws InterruptedException {
         HomePage homePage = new HomePage(BaseClass.getDriver());
-
+        Thread.sleep(2000);
+        homePage.sortBy("hilo");  //HightoLow
+       // homePage.printAllProductName();
+        homePage.addProductToCart(0);
+        homePage.verifyRemoveButton();
     }
 
-    @AfterMethod
+    @Test(priority = 2)
+    public void verifyCart(){
+        YourCartPage cart = new YourCartPage(BaseClass.getDriver());
+        try {
+            cart.verifyCartQuantity();
+        }
+        catch(Exception e){
+            System.out.println("Message ");
+            e.printStackTrace();
+            e.getMessage();
+        }
+        cart.Verifyproductincart();
+    }
+
+    @AfterClass
     public void teardown(){
         BaseClass.quitDriver();
     }

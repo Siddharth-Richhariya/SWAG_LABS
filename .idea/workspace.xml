@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39dd205a-eceb-4e18-a39c-b860e88ec022" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="39dd205a-eceb-4e18-a39c-b860e88ec022" name="Changes" comment="New Update">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/YourCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/WaitHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +47,17 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Siddh/IdeaProjects/SWAG_LABS/testng.xml.executor": "Run",
+    "TestNG.LoginTest.testvalidLogin.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Siddh/IdeaProjects/SWAG_LABS/src/main/java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.testvalidLogin">
+  <component name="RunManager" selected="TestNG.C:/Users/Siddh/IdeaProjects/SWAG_LABS/testng.xml">
     <configuration name="C:/Users/Siddh/IdeaProjects/SWAG_LABS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SWAG_LABS" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -110,6 +112,44 @@
       <option name="presentableId" value="Default" />
       <updated>1727899627496</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Update">
+      <option name="closed" value="true" />
+      <created>1728157175338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728157175338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java</url>
+          <line>28</line>
+          <properties class="TestClass.LoginTest" method="testHomePage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
