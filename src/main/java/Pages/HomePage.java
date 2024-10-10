@@ -41,6 +41,9 @@ public class HomePage {
     @FindBy(xpath = Locators.Home_Page.REMOVEBUTTON)
     private List<WebElement> removeButton;
 
+    @FindBy(xpath = Locators.Home_Page.CARTBUTTON)
+    private WebElement cartButton;
+
     public void sortBy(String Value) {
         Select dropdown = new Select(dropDown);
         dropdown.selectByValue(Value);
@@ -93,6 +96,10 @@ public class HomePage {
     public void verifyRemoveButton() {
         Assert.assertFalse(removeButton.isEmpty(),"Remove button is not displayed.");
 
+    }
+
+    public void clickCartButton(){
+        cartButton.click();
     }
 }
 

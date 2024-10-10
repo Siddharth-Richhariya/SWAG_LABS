@@ -8,6 +8,7 @@
                     <include name="testvalidLogin"/>
                     <include name="testHomePage"/>
                     <include name="verifyCart"/>
+                    <include name="setCheckoutPage"/>
                 </methods>
             </class>
         </classes>

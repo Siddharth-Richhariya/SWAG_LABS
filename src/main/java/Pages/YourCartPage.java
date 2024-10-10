@@ -24,6 +24,9 @@ public class YourCartPage {
     @FindBy(xpath = Locators.YourCart_Page.VERIFYPRODUCTINCART)
     private WebElement verifyproductincart;
 
+    @FindBy(xpath = Locators.YourCart_Page.CHECKOUTBUTTON)
+    private WebElement checkoutButton;
+
     public void verifyCartQuantity(){
         System.out.println(cartQuantity.size());
     }
@@ -31,5 +34,9 @@ public class YourCartPage {
     public void Verifyproductincart(){
         wait.waitForElementToBeVisible(By.xpath(Locators.YourCart_Page.VERIFYPRODUCTINCART));
         System.out.println(verifyproductincart.getText());
+    }
+
+    public void clickCheckoutButton(){
+        checkoutButton.click();
     }
 }
