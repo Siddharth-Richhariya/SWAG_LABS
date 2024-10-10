@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dd205a-eceb-4e18-a39c-b860e88ec022" name="Changes" comment="Smoke Testing">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/FinalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MenuButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties.file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MenuButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MenuButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728567456859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Smoke Testing">
+      <option name="closed" value="true" />
+      <created>1728580125670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728580125670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

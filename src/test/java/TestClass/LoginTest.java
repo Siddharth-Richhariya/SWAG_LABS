@@ -85,7 +85,7 @@ public class LoginTest {
     public void menuBar(){
         MenuButton menuButton = new MenuButton(BaseClass.getDriver());
         menuButton.openMenuBar();
-
+        menuButton.logOut();
     }
 
     @AfterClass

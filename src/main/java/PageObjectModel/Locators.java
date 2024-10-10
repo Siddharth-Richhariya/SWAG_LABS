@@ -55,10 +55,5 @@ public class Locators {
         public static final String ALLITEMS = "//a[@id='inventory_sidebar_link'][contains(text(),'All Items')]";
         public static final String ABOUT = "//a[@id='about_sidebar_link'][contains(text(),'About')]";
         public static final String LOGOUT = "//a[@id='logout_sidebar_link'][contains(text(),'Logout')]";
-
     }
-
-
-
-
 }

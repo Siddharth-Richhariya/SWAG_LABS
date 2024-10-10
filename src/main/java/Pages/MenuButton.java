@@ -22,7 +22,7 @@ public class MenuButton {
     private WebElement openMenuBar;
 
     @FindBy(xpath = Locators.Menu_Bar.LOGOUT)
-    private WebElement logoutButton;
+    private WebElement logout;
 
     @FindBy(xpath = Locators.Menu_Bar.ABOUT)
     private WebElement aboutButton;
@@ -38,8 +38,14 @@ public class MenuButton {
         System.out.println("Bar opened");
     }
 
-    public void logOut(){
-        wait.waitForElementToBeClickable((By) logoutButton).click();
-        System.out.println("Successfully Logged Out");
+    public void logOut() {
+        try {
+            wait.waitForElementToBeClickable(By.xpath(Locators.Menu_Bar.LOGOUT));
+            logout.click();
+            System.out.println("Successfully logged out.");
+        } catch (Exception e) {
+            System.err.println("Logout failed: " + e.getMessage());
+            e.printStackTrace();
+        }
     }
 }
