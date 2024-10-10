@@ -36,6 +36,29 @@ public class Locators {
         public static final String ERRORMESSAGE = "//form/h3/button[@class='error-button']";
     }
 
+    public static class CheckOutOverview_Page{
+        public static final String ITEMTOTAL = "//div[@class='summary_subtotal_label']";
+        public static final String TAX = "//div[@class='summary_tax_label']";
+        public static final String TOTALAMMOUNT = "//div[@class='summary_total_label']";
+        public static final String CANCELBUTTON = "//a[contains(text(),'CANCEL')]";
+        public static final String FINISHBUTTON = "//a[contains(text(),'FINISH')]";
+    }
+
+    public static class Final_Page{
+        public static final String CONFIRMATIONMESSAGE1 = "//h2[@class='complete-header']";
+        public static final String CONFIRMATIONMESSAGE2 ="//div[@class='complete-text']";
+    }
+
+    public static class Menu_Bar {
+        public static final String CLOSEMENUBAR = "//button[contains(text(),'Close Menu')]";
+        public static final String OPENMENUBAR = "//button[contains(text(),'Open Menu')]";
+        public static final String ALLITEMS = "//a[@id='inventory_sidebar_link'][contains(text(),'All Items')]";
+        public static final String ABOUT = "//a[@id='about_sidebar_link'][contains(text(),'About')]";
+        public static final String LOGOUT = "//a[@id='logout_sidebar_link'][contains(text(),'Logout')]";
+
+    }
+
+
 
 
 }

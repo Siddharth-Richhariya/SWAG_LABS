@@ -9,6 +9,9 @@
                     <include name="testHomePage"/>
                     <include name="verifyCart"/>
                     <include name="setCheckoutPage"/>
+                    <include name="checkoutOverviewPage"/>
+                    <include name="getOrderConfirmation"/>
+                    <include name="menuBar"/>
                 </methods>
             </class>
         </classes>

@@ -1,10 +1,7 @@
 package TestClass;
 
 import PageObjectModel.BaseClass;
-import Pages.CheckoutPage;
-import Pages.HomePage;
-import Pages.LoginPage;
-import Pages.YourCartPage;
+import Pages.*;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -19,7 +16,7 @@ public class LoginTest {
         BaseClass.openURL(Url);
     }
 
-    @Test(priority = 0)
+    @Test
     public void testvalidLogin(){
         LoginPage loginPage = new LoginPage(BaseClass.getDriver());
         loginPage.enterUserName("standard_user");
@@ -67,6 +64,28 @@ public class LoginTest {
         checkoutPage.enterLastName("Dev");
         checkoutPage.enterZipcode(284121);
         checkoutPage.continueButton();
+    }
+
+    @Test(priority = 4)
+    public void checkoutOverviewPage(){
+        CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(BaseClass.getDriver());
+        checkoutOverviewPage.getItemtotal();
+        checkoutOverviewPage.getTotalTax();
+        checkoutOverviewPage.getTotalAmmount();
+        checkoutOverviewPage.clickFinishButton();
+    }
+
+    @Test(priority = 5)
+    public void getOrderConfirmation(){
+        FinalPage finalPage = new FinalPage(BaseClass.getDriver());
+        finalPage.getConfirmationMeassge();
+    }
+
+    @Test(priority = 6)
+    public void menuBar(){
+        MenuButton menuButton = new MenuButton(BaseClass.getDriver());
+        menuButton.openMenuBar();
+
     }
 
     @AfterClass
